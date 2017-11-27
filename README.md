@@ -37,6 +37,41 @@ In order to use this solution you need to create json of your translations as fo
     }
 }
 ```
+
+## Sample Output
+
+### Swift File
+
+```
+class StringResource {
+	class SignUpTranslation {
+		static let name = NSLocalizedString("Sign_Up_Translation.name", "Forename Surname")
+		static let email = NSLocalizedString("Sign_Up_Translation.email", "E-mail address") 
+		static let password = NSLocalizedString("Sign_Up_Translation. password", "Password") 
+	}
+
+	class LoginTranslation {
+		static let email = NSLocalizedString("Login_Translation.email", "E-mail address") 
+		static let password = NSLocalizedString("Login_Translation.password", "Password") 
+	}
+}
+```
+
+### Localizable.strings (en)
+```
+/* Email */
+"Login_Translation.email" = "E-mail address";
+
+```
+
+### Localizable.strings (no)
+```
+/* Email */
+"Login_Translation.email" = "E-postadresse";
+
+```
+
+
 ## Usage
 
 - Run the project
