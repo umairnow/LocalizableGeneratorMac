@@ -74,6 +74,10 @@ class StringResource {
 
 ## Usage
 
+- You can go to the build folder and download the app from there
+
+*OR*
+
 - Run the project
 - Enter the key first language
 - Enter the key for sencond language
